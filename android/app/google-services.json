@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "914159723583",
+    "project_id": "staffpulse-hr-2024",
+    "storage_bucket": "staffpulse-hr-2024.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:914159723583:android:9bc2e861e01afbe425048a",
+        "android_client_info": {
+          "package_name": "com.staffpulse.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBHBEKmab1bnOc4mot0u4Emm07y-rmZd0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
