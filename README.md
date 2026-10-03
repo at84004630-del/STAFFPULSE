@@ -1,7 +1,9 @@
 # StaffPulse 💚
 
-> **Anonymous Employee Pulse Check & Burnout Prevention App**  
-> Built for the **RevenueCat Ship-a-ton 2026** Hackathon
+> **Workforce Attendance, Intelligent Shift Management & Anonymous Pulse AI Platform**  
+> Built for the **RevenueCat Ship-a-ton 2026** Hackathon  
+> 🌐 **Live Web Deployment:** [https://staffpulse-hr-2024.web.app/](https://staffpulse-hr-2024.web.app/)  
+> ⚡ **Evaluator Access:** One-click instant demo mode with full enterprise shifts & live attendance records (or Admin `admin` / `admin123`)
 
 ---
 
