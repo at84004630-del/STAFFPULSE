@@ -1,4 +1,4 @@
-# StaffPulse — App Store Listing & Metadata
+ StaffPulse — App Store Listing & Metadata
 
 > **Primary Store:** Samsung Galaxy Store (Samsung Seller Portal)  
 > **Secondary Stores:** Google Play Store / Apple App Store  
