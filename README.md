@@ -91,21 +91,7 @@ flutter pub get
 dart pub global activate flutterfire_cli
 
 # Configure Firebase
-flutterfire configure --project=YOUR_FIREBASE_PROJECT_ID
-```
-
-### 4. RevenueCat Setup
-1. Create account at [app.revenuecat.com](https://app.revenuecat.com)
-2. Create a new project → Add Android/iOS app
-3. Create an Entitlement: `staffpulse_pro`
-4. Create Products in Samsung Seller Portal / App Store Connect
-5. Replace API keys in `lib/core/config/app_config.dart`:
-   ```dart
-   static const String revenueCatAndroidApiKey = 'goog_YOUR_KEY';
-   static const String revenueCatIosApiKey = 'appl_YOUR_KEY';
-   ```
-
-### 5. Run the app
+flutterfire configure --project=YOUR_FIREBASE_PROJECT Run the app
 ```bash
 # Android / Samsung Galaxy
 flutter run --release
