@@ -9,14 +9,7 @@
 
 ## 🎯 Overview
 
-StaffPulse is a Flutter mobile app that helps managers detect burnout risks early through **100% anonymous** daily employee pulse check-ins. Employees submit their mood, energy, and workload in under 10 seconds — their responses are immediately anonymized, and managers only ever see aggregated team wellness scores.
-
-### Target Award Categories
-- 🕊️ **RevenueCat Peace Prize** — Social Impact / Workplace Mental Health
-- 💰 **HAMM Award** — Monetization mastery with Freemium + Pro tier
-
-
----
+StaffPulse is a Flutter mobile app that helps managers detect burnout risks early through **100% anonymous** daily employee pulse check-ins. Employees submit their mood, energy, and workload in under 10 seconds — their responses are immediately anonymized, and managers only ever see aggregated team wellness score.
 
 ## 📱 App Store Target
 
@@ -121,7 +114,7 @@ flutter run --release
 
 ---
 
-## 🗓️ Ship-a-ton Submission Checklist
+##  Submission Checklist
 
 - [x] New app (not published before August 1, 2026)(`purchases_flutter`)
 - [x] At least one IAP / subscription configured (`staffpulse_pro`)
