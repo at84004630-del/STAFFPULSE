@@ -1,4 +1,4 @@
-# StaffPulse 💚
+ StaffPulse 💚
 
 > **Workforce Attendance, Intelligent Shift Management & Anonymous Pulse AI Platform**  
 > Built for the BHARATCODE HACKATHON 
@@ -32,7 +32,7 @@ lib/
 │   ├── router/
 │   │   └── app_router.dart      # GoRouter + bottom nav shell
 │   ├── services/
-│   │   ├── revenuecat_service.dart  # RevenueCat SDK wrapper
+│   │   ├── revenuecat_service.dart  # 
 │   │   └── notification_service.dart # Push notifications
 │   └── theme/
 │       └── app_theme.dart       # Light/dark themes, brand colors
