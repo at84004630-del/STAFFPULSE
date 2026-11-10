@@ -1,7 +1,7 @@
 # StaffPulse 💚
 
 > **Workforce Attendance, Intelligent Shift Management & Anonymous Pulse AI Platform**  
-> Built for the **RevenueCat Ship-a-ton 2026** Hackathon  
+> Built for the BHARATCODE HACKATHON 
 > 🌐 **Live Web Deployment:** [https://staffpulse-hr-2024.web.app/](https://staffpulse-hr-2024.web.app/)  
 > ⚡ **Evaluator Access:** One-click instant demo mode with full enterprise shifts & live attendance records (or Admin `admin` / `admin123`)
 
@@ -14,7 +14,7 @@ StaffPulse is a Flutter mobile app that helps managers detect burnout risks earl
 ### Target Award Categories
 - 🕊️ **RevenueCat Peace Prize** — Social Impact / Workplace Mental Health
 - 💰 **HAMM Award** — Monetization mastery with Freemium + Pro tier
-- 🏆 **RevenueCat Design Award** — Premium glassmorphism UI + animations
+
 
 ---
 
@@ -49,8 +49,7 @@ lib/
     ├── pulse/                   # Pulse Check-in (4-step), Results
     ├── team/                    # Team screen, Invite screen
     ├── analytics/               # Charts & analytics
-    ├── paywall/                 # RevenueCat paywall
-    └── settings/                # Notifications, privacy, account
+    ├── paywall/                         # Notifications, privacy, account
 ```
 
 ---
@@ -63,9 +62,6 @@ lib/
 | **Pro Monthly** | $4.99/mo | Unlimited members, 30-day history, AI insights, PDF export |
 | **Pro Annual** | $39.99/yr | Everything in Pro (save 33%) |
 
-### RevenueCat Integration
-- `purchases_flutter` SDK initialized in `main.dart`
-- `RevenueCatService` wrapper handles: `getOfferings()`, `purchasePackage()`, `restorePurchases()`
 - Entitlement: `staffpulse_pro`
 - ✅ **Restore Purchases** button on paywall (required by Apple/Samsung)
 - ✅ **Privacy Policy** and **Terms of Service** links on paywall
@@ -95,9 +91,6 @@ flutterfire configure --project=YOUR_FIREBASE_PROJECT Run the app
 ```bash
 # Android / Samsung Galaxy
 flutter run --release
-
-# Build APK for Samsung Galaxy Store
-flutter build apk --release
 ```
 
 ---
@@ -130,15 +123,8 @@ flutter build apk --release
 
 ## 🗓️ Ship-a-ton Submission Checklist
 
-- [x] New app (not published before August 1, 2026)
-- [x] RevenueCat SDK integrated (`purchases_flutter`)
+- [x] New app (not published before August 1, 2026)(`purchases_flutter`)
 - [x] At least one IAP / subscription configured (`staffpulse_pro`)
 - [x] Restore Purchases button on paywall & settings (Apple & Samsung requirement)
 - [x] Privacy Policy & Terms of Service dialogs & web URLs in app
-- [x] Executive PDF Report export engine implemented (`pdf` & `printing`)
-- [x] Devpost submission writeup prepared (`STAFFPULSE_DEVPOST_SUBMISSION.md`)
-- [x] Release APK compiled (`build\app\outputs\flutter-apk\app-release.apk`)
-- [ ] Uploaded to Samsung Galaxy Store / TestFlight
-- [ ] Demo video recorded (2 minutes max)
-- [ ] RevenueCat dashboard screenshot showing sandbox / live events
-
+- [x] Executive PDF Report export engine implemented (`pdf` & `printing`
