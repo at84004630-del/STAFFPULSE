@@ -1,12 +1,12 @@
 # StaffPulse 💚 — Anonymous Employee Wellbeing & Burnout Prevention
 
-> **Built for the RevenueCat Ship-a-ton 2026 Hackathon**  
-> *Empowering managers to detect burnout risks early while protecting 100% of employee privacy through cryptographic anonymization and RevenueCat-powered Pro analytics.*
+> **Built for the BHARATCODE HACKATHON 
+> *Empowering managers to detect burnout risks early while protecting 100% of employee privacy through cryptographic anonymization and Pro analytics.*
 
 ---
 
 ## 🕊️ Elevator Pitch
-In high-stress remote and hybrid teams, employees hide burnout until they quit, while managers only find out during exit interviews. **StaffPulse** fixes this broken feedback loop through a **10-second anonymous daily pulse check-in**. Employee responses are cryptographically unlinked from identity, and managers unlock real-time aggregated burnout predictions, team wellness heatmaps, and executive PDF reports through a seamless **RevenueCat** subscription engine.
+In high-stress remote and hybrid teams, employees hide burnout until they quit, while managers only find out during exit interviews. **StaffPulse** fixes this broken feedback loop through a **10-second anonymous daily pulse check-in**. Employee responses are cryptographically unlinked from identity, and managers unlock real-time aggregated burnout predictions, team wellness heatmaps, and executive PDF reports through a seamless **Bharat Code Hackathon** subscription engine.
 
 ---
 
@@ -44,9 +44,9 @@ StaffPulse delivers two tailor-made experiences:
 
 ---
 
-## 💰 Monetization Architecture & RevenueCat Implementation
+## 💰 Monetization Architecture & Revenue Implementation
 
-StaffPulse adopts a high-conversion B2B2C Freemium model orchestrated via the **RevenueCat `purchases_flutter` SDK**.
+StaffPulse adopts a high-conversion B2B2C Freemium model orchestrated via the **BharatCode Hackathon `purchases_flutter` SDK**.
 
 ### Pricing Tiers
 | Tier | Pricing | Features Included |
@@ -55,38 +55,7 @@ StaffPulse adopts a high-conversion B2B2C Freemium model orchestrated via the **
 | **Pro Monthly** | **$4.99 / month** | Unlimited team members, 30-day analytics, burnout prediction alerts, executive PDF reports |
 | **Pro Annual** | **$39.99 / year** *(Save 33%)* | All Pro features + priority roadmap access & multi-team management |
 
-### RevenueCat Technical Highlights
-1. **SDK Initialization:** Configured in `main.dart` with platform-specific keys and debug Test Store support for sandbox validation.
-2. **Dynamic Offering & Package Resolution:** `RevenueCatService.instance.getOfferings()` dynamically pulls active offerings and localized prices directly from App Store Connect / Samsung Seller Portal.
-3. **Entitlement Protection:** Features such as 30-day analytics, unlimited team seats, and PDF report generation are guarded by the `staffpulse_pro` entitlement (`customerInfo.entitlements.all['staffpulse_pro']?.isActive`).
-4. **App Store & Samsung Compliance:**
-   - Prominent, functional **"Restore Purchases"** button on paywall and settings screens.
-   - Transparent in-app access to **Terms of Service** and **Privacy Policy** modals.
-   - Graceful sandbox / demo fallback mode allowing hackathon judges to experience Pro features immediately.
-
----
-
-## 🛠️ Tech Stack & Architecture
-
-- **Mobile Framework:** Flutter 3.x (Dart SDK 3.3+)
-- **State Management:** Riverpod 2 (clean unidirectional data flow)
-- **Monetization Engine:** RevenueCat `purchases_flutter: ^8.0.0`
-- **Backend & Real-Time Sync:** Firebase (Cloud Firestore & Firebase Auth)
-- **Reporting & Document Engine:** `pdf` & `printing`
-- **Data Visualizations:** `fl_chart`
-- **Animations & Haptics:** `flutter_animate` & system haptic feedback
-- **Local Persistence:** Hive key-value storage
-
----
-
-## 🏆 Target Award Categories
-
-1. **🕊️ RevenueCat Peace Prize (Social Impact & Mental Health):**  
-   StaffPulse tackles workplace stress, mental health stigma, and employee retention by building psychological safety into the daily routine of teams.
-2. **💰 HAMM Award (Highest ARR & Monetization Mastery):**  
-   Targeting modern remote startups and tech teams with an intuitive freemium ramp (3 free seats) that naturally upgrades managers to Pro as soon as their team expands or requires executive reporting.
-3. **🎨 RevenueCat Design Award:**  
-   Crafted with a sleek emerald/teal glassmorphism aesthetic, accessible contrast ratios, and micro-interactions that make a 10-second check-in delightful.
+##-interactions that make a 10-second check-in delightful.
 4. **📱 Samsung Galaxy Store Track:**  
    Strategically configured for the Samsung Galaxy Store to bypass Google Play's 14-day 20-tester closed testing delays.
 
